@@ -59,7 +59,7 @@ st.markdown('<h1 class="title">Olist e-commerce Review Classification</h1>', uns
 st.markdown('<h5 class="subtitle">Analyze customer reviews and sentiments</h5>', unsafe_allow_html=True)
 
 # Display an image
-image = Image.open(r"C:\Users\chouk\Streamlit\bhanu\Olist.png")
+image = Image.open(r"Olist.png")
 st.image(image, use_column_width=True)
 
 # Input section
