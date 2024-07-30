@@ -92,6 +92,6 @@ if st.button("Submit",):
 
 # Display past reviews
 st.markdown('<div class="past-reviews"><h5>Past Reviews  with Classification :</h5></div>', unsafe_allow_html=True)
-df = pd.read_csv(r"C:\Users\chouk\Streamlit\bhanu\review.csv")
+df = pd.read_csv(r"review.csv")
 df = df.drop("Unnamed: 0", axis=1)
 st.write(df)
