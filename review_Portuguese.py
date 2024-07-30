@@ -19,7 +19,6 @@ st.markdown(
     .title {
         font-family: 'Arial', sans-serif;
         font-size: 36px;
-        color: black;
         text-align: center;
     }
     .subtitle {
@@ -40,7 +39,6 @@ st.markdown(
         color: #333333;
     }
     .past-reviews h5 {
-        color: black;
         font-weight: bold;
     }
     .stButton>button {
